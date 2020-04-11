@@ -111,16 +111,20 @@ header nav ul li a:hover {
         left: 0;
         z-index: 100;
     }
-    header nav.hidden {
-        width: 0;
-        z-index: -1;
-    }
+    /* header nav.hidden {} */
     header nav ul {
         display: block;
         text-align: center;
     }
     header nav ul li a {
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    header nav ul li a.active2 {
+        /* display: none; */
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        transition: 0.5s;
     }
 }
 
