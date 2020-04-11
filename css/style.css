@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
+:root {
+    --black: hsl(198, 24%, 8%);
+    --white-cream: hsl(0, 0%, 70%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* Location of the image */
+    background-image: url("../images/bg-cover-main.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+    /* Set a background color that will be displayed
+    while the background image is loading */
+    background-color: black;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #262626;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .logo {
+    color: var(--white-cream);
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+    /* color: #0009;
+    opacity: 0.4; */
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: var(--white-cream);
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a.active,
+header nav ul li a:hover {
+    color: black;
+    background: var(--white-cream);
+}
+
+.menu-toggle {
+    color: white;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.okay {
+    color: white;
+    position: relative;
+    top: 300px;
+}
+
+@media (max-width: 991px) {
+    header {
+        padding: 0 20px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    header nav {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        top: 50px;
+        background: #333;
+        left: -100%;
+        transition: 0.5s;
+    }
+    header nav.active {
+        left: 0;
+        z-index: 100;
+    }
+    header nav.hidden {
+        width: 0;
+        z-index: -1;
+    }
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+/* 
+nav {
+    padding-top: 20px;
+}
+
+nav img {
+    width: 20%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    border: 0 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-left: 50px;
+}
+
+ul li a {
+    color: var(--white-cream);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+ul li a:hover {
+    border-bottom: solid;
+    padding-bottom: 10px;
+    color: var(--white-cream);
+    width: 40px;
+}
+
+.heading {
+    z-index: 100;
+    color: var(--white-cream);
+    justify-content: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 200;
+    position: fixed;
+    left: 90px;
+    bottom: 200px;
+    background-color: black 0.8;
+    animation-name: text-effect;
+    animation-duration: 4s;
+}
+
+@keyframes text-effect {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 200px;
+    }
+}
+
+footer {
+    color: var(--white-cream);
+    position: fixed;
+    left: 46%;
+    bottom: 0;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white-cream);
+    font-size: 0.9em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: var(--white-cream);
+}
+
+footer a:visited {
+    color: rgb(216, 216, 216);
+}
+
+.fa-heart {
+    color: #ed3a2d;
+}
+
+.gallery {
+    margin: 10px 50px;
+    padding-left: 100px;
+    bottom: 100px;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 30px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.Categories {
+    padding-top: 0px;
+}
+
+.Core-Team {
+    margin: 40px 50px;
+    padding-left: 100px;
+    bottom: 100px;
+}
+
+.Core-Team img {
+    transition: 1s;
+    padding: 30px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.Core-Team img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.Members {
+    margin: 50px 50px;
+    padding-left: 100px;
+    bottom: 100px;
+}
+
+.Members img {
+    transition: 1s;
+    padding: 30px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.Members img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.Alumni {
+    margin: 50px 50px;
+    padding-left: 100px;
+    bottom: 100px;
+}
+
+.Alumni img {
+    transition: 1s;
+    padding: 30px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.Alumni img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+h2 {
+    display: flex;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: var(--white-cream);
+}
+
+.sponsors {
+    color: var(--white-cream);
+}
+
+
+/* For Contact Page */
+
+
+/* 
+.vertical {
+    border-left: 4px solid var(--white-cream);
+    width: 1.5px;
+    height: 500px;
+    position: absolute;
+    top: 28px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.email {
+    position: relative;
+    padding: 50px;
+    width: 40%;
+    top: 90px;
+    left: 120px;
+}
+
+.email h2 {
+    font-size: 1.9em;
+}
+
+.email a {
+    color: var(--white-cream);
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.social {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: var(--white-cream);
+    width: 30%;
+    position: relative;
+    left: 63%;
+    bottom: 265px;
+}
+
+.smicons {
+    padding-top: 18px;
+    height: 100px;
+    width: 345px;
+    position: relative;
+    left: 45px;
+}
+
+.fab {
+    color: var(--white-cream);
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    font-size: 65px;
+}
+
+.fab:hover {
+    color: white;
+} */
+
+
+/* @media screen and (min-width:320px) {} */
