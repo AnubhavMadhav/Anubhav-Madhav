@@ -1,4 +1,4 @@
-const index2 = document.getElementById('nav ul li');
+const index2 = document.getElementById('hi');
 
 const { nav } = document;
 
@@ -6,11 +6,11 @@ const { nav } = document;
 
 $(document).ready(function() {
     $('.menu-toggle').click(function() {
-        $('nav').fadeToggle();
-        // $('nav').toggleClass('active')
+        // $('nav').fadeToggle();
+        $('nav').toggleClass('active')
     });
-    $('#hide').click(function() {
-        $('nav').fadeToggle();
+    $('hide').click(function() {
+        // $('nav').fadeToggle();
         // $('nav').toggleClass('active')
     });
 });
