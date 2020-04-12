@@ -193,7 +193,7 @@ header nav ul li a:hover {
         justify-content: center;
         font-weight: 250;
         position: fixed;
-        font-size: 24px;
+        font-size: 22px;
         left: 12px;
         top: 267px;
         width: 100%;
@@ -228,7 +228,7 @@ header nav ul li a:hover {
         width: 300px;
         height: auto;
         position: relative;
-        left: 70px;
+        left: 67px;
         transition: 1s;
         border-radius: 35px;
     }
