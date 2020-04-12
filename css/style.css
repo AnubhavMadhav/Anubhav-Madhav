@@ -209,7 +209,7 @@ header nav ul li a:hover {
         right: 20px;
         width: 100%;
         padding-left: 0;
-        bottom: 10px;
+        bottom: 30px;
     }
     .gallery img {
         top: 50px;
@@ -217,13 +217,19 @@ header nav ul li a:hover {
         width: 300px;
         height: auto;
         position: relative;
-        left: 50px;
+        left: 70px;
         transition: 1s;
         border-radius: 35px;
     }
     .gallery img:hover {
         filter: grayscale(100%);
         transform: scale(1.1);
+    }
+    .gallery-text {
+        text-align: center;
+        position: relative;
+        top: 60px;
+        color: var(--white-cream);
     }
 }
 
