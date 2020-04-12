@@ -278,6 +278,169 @@ footer a:visited {
     color: white;
 }
 
+.email {
+    position: relative;
+    padding: 50px;
+    width: 40%;
+    top: 80px;
+    left: 100px;
+    color: var(--white-cream)
+}
+
+.email h2 {
+    font-size: 1.9em;
+}
+
+.email a {
+    color: var(--white-cream);
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.or {
+    top: 20px;
+    position: relative;
+    left: 330px;
+    color: var(--white-cream);
+    font-size: 13px;
+    width: 100px;
+}
+
+.drop {
+    width: 500px;
+    position: relative;
+    right: 90px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+
+.form {
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 275px;
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.button {
+    border-radius: 7px;
+    background-color: var(--white-cream);
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 3px;
+    width: 75px;
+    transition: all 0.5s;
+    position: relative;
+    left: 5px;
+    cursor: pointer;
+    /* margin: 5px; */
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+input[type=text] {
+    background-color: var(--white-cream);
+    border-radius: 7px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 3px solid black;
+}
+
+input[type=email] {
+    background-color: var(--white-cream);
+    border-radius: 7px;
+}
+
+input[type=email]:focus {
+    outline: none;
+    border: 3px solid black;
+}
+
+textarea[name=name] {
+    background-color: var(--white-cream);
+    border-radius: 7px;
+    height: 70px;
+}
+
+textarea[name=name]:focus {
+    outline: none;
+    border: 3px solid black;
+}
+
+.vertical {
+    border-left: 4px solid var(--white-cream);
+    width: 1.5px;
+    height: 500px;
+    position: absolute;
+    top: 28px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.social {
+    color: var(--white-cream);
+    width: 30%;
+    position: absolute;
+    left: 1030px;
+    bottom: 330px;
+}
+
+.smicons {
+    padding-top: 18px;
+    height: 100px;
+    width: 345px;
+    position: relative;
+    right: 17px;
+}
+
+.fab {
+    color: var(--white-cream);
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    font-size: 65px;
+}
+
+.fab:hover {
+    color: white;
+}
+
 
 /* For Mobile */
 

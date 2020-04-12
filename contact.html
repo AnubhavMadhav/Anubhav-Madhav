@@ -1,25 +1,94 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Anubhav's Contact</title>
-  </head>
-  <body>
-    <h2>Contact Me :</h2>
-    <ul>
-    <li> Ph No.: 9725750798 </li>
-    <li> Email : anubhavmadhav20@gmail.com</li>
-    <li> Email 2: 201851024@iiitvadodara.ac.in </li>
-    </ul>
-    <hr>
-    <form action="mailto:anubhavmadhav20@gmail.com" method="post" enctype="text/plain">
-      <label>Name:</label>
-      <input type="text" name="yourName"><br>
-      <label>Email:</label>
-      <input type="email" name="yourEmail"><br>
-      <label>Message:</label><br>
-      <textarea name="name" rows="10" cols="30" name="yourMessage"></textarea><br>
-      <input type="submit"><br>
-    </form>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" class="favicon">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" class="favicon">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <title>Contact</title>
+    <!-- <script src="js/script.js" defer></script> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img class="logo" src="./images/logo.png" href="./index.html" alt="logo"></div>
+        <nav id="hi">
+            <ul>
+                <li class="hide"><a id="hide" href="./index.html">Home</a></li>
+                <li class="hide"><a id="hide" href="./about.html">About</a></li>
+                <li class="hide"><a id="hide" href="./blog.html">Blog</a></li>
+                <li class="hide"><a id="hide" href="./projects.html">Projects</a></li>
+                <li class="hide"><a id="hide" href="./accomplishments.html">Accomplishments</a></li>
+                <li class="hide"><a id="hide" href="./gallery.html">Gallery</a></li>
+                <li class="hide"><a id="hide" href="./contact.html" class="active">Contact</a></li>
+            </ul>
+
+        </nav>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+
+    </header>
+    <main>
+        <div class="contact">
+            <div class="email">
+                <h2>Email:</h2>
+                <h2 style="position: relative; left: 60px;"> <a href=mailto:anubhavmadhav20@gmail.com>anubhavmadhav20@gmail.com</a></h2>
+                <!-- <h2 style="padding-top: 10px;">Contact No.:</h2>
+            <h2 style="position: relative; left: 60px;"><a href="tel:9725750798">9725750798</a></h2> -->
+            </div>
+            <div class="or">
+                <h1>OR</h1>
+                <h1 class="drop">drop a message here</h1>
+            </div>
+            <div class="form">
+                <form action="mailto:anubhavmadhav20@gmail.com" method="post" enctype="text/plain">
+                    <label>Name:</label>
+                    <input type="text" name="yourName"><br>
+                    <label>Email:</label>
+                    <input type="email" name="yourEmail"><br>
+                    <label>Message:</label><br>
+                    <textarea name="name" rows="10" cols="30" name="yourMessage"></textarea><br>
+                    <button class="button"><span>Submit</span></button>
+                    <!-- <input type="submit" class="button"><br> -->
+                </form>
+            </div>
+
+        </div>
+        <div class="vertical">
+
+        </div>
+        <div class="social">
+            <h1>Let's get in touch</h1>
+            <div class="smicons">
+                <a href="https://www.instagram.com/anubhav_madhav/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/iiitv.obscura/"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/obscura_iiitv"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <center>
+            <h6> <span> <i class="fas fa-copyright"></i></span>
+                <a href="./contact.html">Anubhav Madhav</a>
+            </h6>
+        </center>
+    </footer>
+
+
+
+</body>
+
 </html>
