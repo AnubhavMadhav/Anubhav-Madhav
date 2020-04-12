@@ -218,19 +218,30 @@ footer a:visited {
     left: -10px;
 }
 
+.row {
+    color: var(--white-cream);
+    position: relative;
+    top: 450px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
 .education {
     color: white;
     position: absolute;
     top: 460px;
     left: 300px;
     font-family: 'Indie Flower', cursive;
-    bottom: 30px;
+    bottom: 60px;
+    padding-top: 40px;
 }
 
 .education-details {
     color: var(--white-cream);
     font-size: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .education-details li a {
@@ -241,6 +252,30 @@ footer a:visited {
 .education-details li a:hover {
     color: white;
     text-decoration: underline;
+}
+
+.hobbies {
+    color: white;
+    position: absolute;
+    top: 730px;
+    left: 300px;
+    font-family: 'Indie Flower', cursive;
+    bottom: 30px;
+    padding-top: 40px;
+}
+
+.hobbies-details {
+    color: var(--white-cream);
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.hobbies ul li a {
+    color: var(--white-cream);
+}
+
+.hobbies ul li a:hover {
+    color: white;
 }
 
 
@@ -395,6 +430,9 @@ footer a:visited {
         font-family: 'Comic Neue', cursive;
         left: -10px;
     }
+    .row {
+        display: none;
+    }
     .education {
         color: white;
         position: absolute;
@@ -406,6 +444,24 @@ footer a:visited {
         padding-bottom: 30px;
         position: relative;
         right: 15px;
+    }
+    .education-details li a {
+        color: white;
+    }
+    .hobbies {
+        color: white;
+        position: absolute;
+        top: 1130px;
+        left: 20px;
+        font-family: 'Indie Flower', cursive;
+        bottom: 30px;
+    }
+    .hobbies-details {
+        color: var(--white-cream);
+        font-size: 20px;
+        padding-bottom: 30px;
+        position: relative;
+        right: 5px;
     }
 }
 
