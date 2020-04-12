@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 :root {
     --black: hsl(198, 24%, 8%);
     --white-cream: hsl(0, 0%, 70%);
@@ -97,8 +97,9 @@ header nav ul li a:hover {
     z-index: 1;
     color: var(--white-cream);
     justify-content: center;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Sacramento', cursive;
     font-weight: 200;
+    font-size: 30px;
     position: fixed;
     right: 425px;
     top: 200px;
@@ -133,6 +134,16 @@ header nav ul li a:hover {
     filter: grayscale(100%);
     transform: scale(1.1);
 }
+
+.gallery-text {
+    text-align: center;
+    position: relative;
+    top: 60px;
+    color: var(--white-cream);
+}
+
+
+/* For Mobile */
 
 @media (max-width: 991px) {
     header {
@@ -180,11 +191,11 @@ header nav ul li a:hover {
         z-index: 1;
         color: var(--white-cream);
         justify-content: center;
-        font-family: 'Playfair Display', sans-serif;
-        font-weight: 200;
+        font-weight: 250;
         position: fixed;
+        font-size: 24px;
         left: 12px;
-        top: 300px;
+        top: 267px;
         width: 100%;
         /* background-color: white 0.8; */
         animation-name: text-effect;
@@ -195,7 +206,7 @@ header nav ul li a:hover {
             top: 0px;
         }
         to {
-            top: 300px;
+            top: 267px;
         }
     }
     .okay {
