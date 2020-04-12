@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 :root {
     --black: hsl(198, 24%, 8%);
     --white-cream: hsl(0, 0%, 70%);
@@ -142,6 +143,16 @@ header nav ul li a:hover {
     color: var(--white-cream);
 }
 
+.intro {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--white-cream);
+    position: absolute;
+    top: 320px;
+    left: 750px;
+}
+
 
 /* For Mobile */
 
@@ -192,10 +203,10 @@ header nav ul li a:hover {
         color: var(--white-cream);
         justify-content: center;
         font-weight: 250;
-        position: fixed;
-        font-size: 22px;
+        position: absolute;
+        font-size: 23px;
         left: 12px;
-        top: 267px;
+        top: 268px;
         width: 100%;
         /* background-color: white 0.8; */
         animation-name: text-effect;
@@ -206,7 +217,7 @@ header nav ul li a:hover {
             top: 0px;
         }
         to {
-            top: 267px;
+            top: 268px;
         }
     }
     .okay {
@@ -241,6 +252,12 @@ header nav ul li a:hover {
         position: relative;
         top: 60px;
         color: var(--white-cream);
+    }
+    .intro {
+        position: relative;
+        left: 7px;
+        top: 40px;
+        font-size: 28px;
     }
 }
 
