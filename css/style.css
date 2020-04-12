@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 :root {
     --black: hsl(198, 24%, 8%);
     --white-cream: hsl(0, 0%, 70%);
@@ -28,13 +31,14 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding: 0 100px;
     background: #262626;
     width: 100%;
     box-sizing: border-box;
+    z-index: 100;
 }
 
 header .logo {
@@ -96,7 +100,7 @@ header nav ul li a:hover {
 
 .heading {
     z-index: 1;
-    color: var(--white-cream);
+    color: white;
     justify-content: center;
     font-family: 'Sacramento', cursive;
     font-weight: 200;
@@ -153,18 +157,104 @@ header nav ul li a:hover {
     left: 750px;
 }
 
+.intro h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro h3 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer {
+    color: var(--white-cream);
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
+    background: #262626;
+    left: -2px;
+}
+
+footer h6 a {
+    text-decoration: none;
+    color: var(--white-cream);
+    font-size: 0.8em;
+    text-align: center;
+    position: relative;
+    bottom: 1px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: var(--white-cream);
+}
+
+footer a:visited {
+    color: rgb(216, 216, 216);
+}
+
+.about {
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    font-family: 'Caveat';
+    color: var(--white-cream);
+    font-size: 14px;
+}
+
+.about-heading {
+    color: white;
+    font-size: 50px;
+    font-family: 'Comic Neue', cursive;
+    left: -10px;
+}
+
+.education {
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 300px;
+    font-family: 'Indie Flower', cursive;
+    bottom: 30px;
+}
+
+.education-details {
+    color: var(--white-cream);
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.education-details li a {
+    color: var(--white-cream);
+    text-decoration: none;
+}
+
+.education-details li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 
 /* For Mobile */
 
 @media (max-width: 991px) {
     header {
-        padding: 0 20px;
+        padding: 0 30px;
     }
     .menu-toggle {
         display: block;
     }
     header nav {
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: calc(100vh - 50px);
         top: 50px;
@@ -258,6 +348,64 @@ header nav ul li a:hover {
         left: 7px;
         top: 40px;
         font-size: 28px;
+        padding-bottom: 30px;
+    }
+    footer {
+        color: var(--white-cream);
+        position: fixed;
+        height: 40px;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size: 0.8em;
+        background: #262626;
+        left: 6px;
+    }
+    footer h6 a {
+        text-decoration: none;
+        text-align: center;
+        color: var(--white-cream);
+        font-size: 0.8em;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+    footer a:active {
+        color: var(--white-cream);
+    }
+    footer a:visited {
+        color: rgb(216, 216, 216);
+    }
+    .fas {
+        text-align: center;
+    }
+    .about {
+        position: absolute;
+        top: 120px;
+        left: 10px;
+        font-family: 'Caveat';
+        color: var(--white-cream);
+        font-size: 14px;
+    }
+    .about-heading {
+        color: white;
+        font-size: 50px;
+        font-family: 'Comic Neue', cursive;
+        left: -10px;
+    }
+    .education {
+        color: white;
+        position: absolute;
+        top: 660px;
+        left: 20px;
+        font-family: 'Indie Flower', cursive;
+    }
+    .education-details {
+        padding-bottom: 30px;
+        position: relative;
+        right: 15px;
     }
 }
 
