@@ -10,7 +10,7 @@
 
 body {
     /* Location of the image */
-    background-image: url("../images/bg-cover-main.jpg");
+    background-image: url("../anubhav.jpeg");
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
     /* Background image doesn't tile */
@@ -23,7 +23,7 @@ body {
     background-size: cover;
     /* Set a background color that will be displayed
     while the background image is loading */
-    background-color: black;
+    background-color: #2d2d2e;
 }
 
 header {
@@ -125,6 +125,10 @@ header nav ul li a:hover {
         width: 100%;
         left: -100%;
         transition: 0.5s;
+    }
+    .bg-img {
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 
