@@ -755,22 +755,19 @@ textarea[name=name]:focus {
     .social h1 {
         font-family: 'Indie Flower', cursive;
         font-size: 36px;
-        position: absolute;
+        position: relative;
+        top: 800px;
         bottom: -30px;
-        right: 90px;
+        left: 40px;
+        width: 300px;
     }
     .smicons {
         padding: 10px;
-        height: 500px;
+        height: 770px;
         width: 100px;
-        position: absolute;
-        right: 100px;
-        top: 280px;
-    }
-    .mobile {
         position: relative;
-        right: 130px;
-        bottom: 403px;
+        right: 10px;
+        top: 1200px;
     }
     .fab {
         padding: 20px;
@@ -778,7 +775,7 @@ textarea[name=name]:focus {
         width: 30px;
         height: 30px;
         background-size: 100% 100%;
-        font-size: 65px;
+        font-size: 50px;
     }
     .fab:hover {
         color: white;
