@@ -346,6 +346,8 @@ footer a:visited {
 }
 
 .button span {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -631,6 +633,154 @@ textarea[name=name]:focus {
         padding-bottom: 30px;
         position: relative;
         right: 5px;
+    }
+    .email {
+        display: none;
+        position: relative;
+        /* padding: 50px; */
+        color: var(--white-cream)
+    }
+    .email h2 {
+        font-size: 1.9em;
+    }
+    .email a {
+        color: var(--white-cream);
+        text-decoration: none;
+        position: absolute;
+        right: 10px;
+    }
+    .email a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    .or {
+        display: none;
+        top: 20px;
+        position: absolute;
+        left: 0;
+        color: var(--white-cream);
+        font-size: 13px;
+        width: 100px;
+    }
+    .drop {
+        width: 80px;
+        position: absolute;
+        right: 0;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+    }
+    .form {
+        color: white;
+        position: absolute;
+        top: 150px;
+        left: 40px;
+        font-size: 20px;
+        font-family: 'Indie Flower', cursive;
+        width: 100px;
+        border-radius: 10px;
+    }
+    .button {
+        border-radius: 7px;
+        background-color: var(--white-cream);
+        border: none;
+        color: black;
+        text-align: center;
+        font-size: 14px;
+        padding: 3px;
+        width: 75px;
+        height: 20px;
+        transition: all 0.5s;
+        position: absolute;
+        left: 5px;
+        cursor: pointer;
+        /* margin: 5px; */
+    }
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        bottom: 3px;
+    }
+    .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    .button:hover span {
+        padding-right: 25px;
+    }
+    .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    input[type=text] {
+        background-color: var(--white-cream);
+        border-radius: 7px;
+    }
+    input[type=text]:focus {
+        outline: none;
+        border: 3px solid black;
+    }
+    input[type=email] {
+        background-color: var(--white-cream);
+        border-radius: 7px;
+    }
+    input[type=email]:focus {
+        outline: none;
+        border: 3px solid black;
+    }
+    textarea[name=name] {
+        background-color: var(--white-cream);
+        border-radius: 7px;
+        height: 70px;
+    }
+    textarea[name=name]:focus {
+        outline: none;
+        border: 3px solid black;
+    }
+    .vertical {
+        display: none;
+    }
+    .social {
+        color: var(--white-cream);
+        width: 90%;
+        position: absolute;
+        left: 40px;
+        bottom: 700px;
+    }
+    .social h1 {
+        font-size: 32px;
+        position: absolute;
+        bottom: -20px;
+        right: 90px;
+    }
+    .smicons {
+        padding: 10px;
+        height: 550px;
+        width: 100px;
+        position: absolute;
+        right: 100px;
+        top: 280px;
+    }
+    .mobile {
+        position: relative;
+        right: 130px;
+        bottom: 405px;
+    }
+    .fab {
+        padding: 20px;
+        color: var(--white-cream);
+        width: 30px;
+        height: 30px;
+        background-size: 100% 100%;
+        font-size: 65px;
+    }
+    .fab:hover {
+        color: white;
     }
 }
 
