@@ -421,12 +421,18 @@ textarea[name=name]:focus {
     bottom: 330px;
 }
 
+.social h1 {
+    font-size: 43px;
+    position: relative;
+    right: 45px;
+}
+
 .smicons {
     padding-top: 18px;
     height: 100px;
-    width: 345px;
+    width: 600px;
     position: relative;
-    right: 17px;
+    right: 120px;
 }
 
 .fab {
