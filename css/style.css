@@ -587,6 +587,11 @@ textarea[name=name]:focus {
     .fas {
         text-align: center;
     }
+    .about-page {
+        position: relative;
+        margin: 0 auto;
+        width: 340px;
+    }
     .about {
         position: absolute;
         top: 120px;
@@ -622,7 +627,7 @@ textarea[name=name]:focus {
     .hobbies {
         color: white;
         position: absolute;
-        top: 1130px;
+        top: 1200px;
         left: 20px;
         font-family: 'Indie Flower', cursive;
         bottom: 30px;
