@@ -753,9 +753,10 @@ textarea[name=name]:focus {
         bottom: 700px;
     }
     .social h1 {
-        font-size: 32px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 36px;
         position: absolute;
-        bottom: -20px;
+        bottom: -30px;
         right: 90px;
     }
     .smicons {
