@@ -634,6 +634,11 @@ textarea[name=name]:focus {
         position: relative;
         right: 5px;
     }
+    .contact-wrap {
+        position: relative;
+        width: 320px;
+        margin: 0 auto;
+    }
     .email {
         display: none;
         position: relative;
@@ -755,10 +760,10 @@ textarea[name=name]:focus {
     .social h1 {
         font-family: 'Indie Flower', cursive;
         font-size: 36px;
-        position: relative;
-        top: 800px;
+        position: absolute;
+        top: 1525px;
         bottom: -30px;
-        left: 40px;
+        left: 5px;
         width: 300px;
     }
     .smicons {
@@ -767,7 +772,7 @@ textarea[name=name]:focus {
         width: 100px;
         position: relative;
         right: 10px;
-        top: 1200px;
+        top: 1900px;
     }
     .fab {
         padding: 20px;
