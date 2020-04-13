@@ -760,7 +760,7 @@ textarea[name=name]:focus {
     }
     .smicons {
         padding: 10px;
-        height: 550px;
+        height: 500px;
         width: 100px;
         position: absolute;
         right: 100px;
@@ -769,7 +769,7 @@ textarea[name=name]:focus {
     .mobile {
         position: relative;
         right: 130px;
-        bottom: 405px;
+        bottom: 403px;
     }
     .fab {
         padding: 20px;
