@@ -407,7 +407,7 @@ textarea[name=name]:focus {
     border-left: 4px solid var(--white-cream);
     width: 1.5px;
     height: 500px;
-    position: absolute;
+    position: fixed;
     top: 28px;
     bottom: 0;
     left: 0;
@@ -426,7 +426,7 @@ textarea[name=name]:focus {
 .social h1 {
     font-size: 43px;
     position: relative;
-    right: 45px;
+    right: 55px;
 }
 
 .smicons {
@@ -763,7 +763,7 @@ textarea[name=name]:focus {
         position: absolute;
         top: 1525px;
         bottom: -30px;
-        left: 5px;
+        right: 2px;
         width: 300px;
     }
     .smicons {
@@ -773,6 +773,11 @@ textarea[name=name]:focus {
         position: relative;
         right: 10px;
         top: 1900px;
+    }
+    .mobile {
+        position: absolute;
+        left: 120px;
+        bottom: 420px;
     }
     .fab {
         padding: 20px;
