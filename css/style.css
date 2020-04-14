@@ -436,9 +436,10 @@ textarea[name=yourMessage]:focus {
 }
 
 .social h1 {
-    font-size: 43px;
+    font-size: 52px;
     position: relative;
     right: 55px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .smicons {
@@ -582,6 +583,259 @@ textarea[name=yourMessage]:focus {
 }
 
 .blog3 a {
+    text-decoration: none;
+}
+
+.projects-page {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-heading {
+    position: absolute;
+    top: 40px;
+    left: 610px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.projects {
+    position: relative;
+    top: 200px;
+    /* left: 680px; */
+    padding: 30px;
+}
+
+.project1 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.project2 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.project3 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.project4 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.project5 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.project6 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.project7 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.project1 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.project2 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.project3 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.project4 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.project5 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.project6 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.project7 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.project1 h1:hover {
+    color: white;
+}
+
+.project2 h1:hover {
+    color: white;
+}
+
+.project3 h1:hover {
+    color: white;
+}
+
+.project4 h1:hover {
+    color: white;
+}
+
+.project5 h1:hover {
+    color: white;
+}
+
+.project6 h1:hover {
+    color: white;
+}
+
+.project7 h1:hover {
+    color: white;
+}
+
+.project1 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.project2 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.project3 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.project4 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.project5 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.project6 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.project7 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.project1 a {
+    text-decoration: none;
+}
+
+.project2 a {
+    text-decoration: none;
+}
+
+.project3 a {
+    text-decoration: none;
+}
+
+.project4 a {
+    text-decoration: none;
+}
+
+.project5 a {
+    text-decoration: none;
+}
+
+.project6 a {
+    text-decoration: none;
+}
+
+.project7 a {
     text-decoration: none;
 }
 
@@ -1048,6 +1302,221 @@ textarea[name=yourMessage]:focus {
         text-decoration: none;
     }
     .blog3 a {
+        text-decoration: none;
+    }
+    .projects-page {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .project-heading {
+        position: absolute;
+        top: 30px;
+        left: 90px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+        color: white;
+    }
+    .projects {
+        position: relative;
+        width: 100%;
+        top: 130px;
+        /* left: 680px; */
+    }
+    .project1 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 180px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .project2 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 180px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .project3 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 180px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .project4 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 180px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .project5 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 180px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .project6 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 180px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .project7 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 180px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .project1 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: var(--white-cream);
+    }
+    .project2 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: var(--white-cream);
+    }
+    .project3 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: var(--white-cream);
+    }
+    .project4 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: var(--white-cream);
+    }
+    .project5 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: var(--white-cream);
+    }
+    .project6 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: var(--white-cream);
+    }
+    .project7 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: var(--white-cream);
+    }
+    .project1 h1:hover {
+        color: white;
+    }
+    .project2 h1:hover {
+        color: white;
+    }
+    .project3 h1:hover {
+        color: white;
+    }
+    .project4 h1:hover {
+        color: white;
+    }
+    .project5 h1:hover {
+        color: white;
+    }
+    .project6 h1:hover {
+        color: white;
+    }
+    .project7 h1:hover {
+        color: white;
+    }
+    .project1 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .project2 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .project3 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .project4 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .project5 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .project6 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .project7 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .project1 a {
+        text-decoration: none;
+    }
+    .project2 a {
+        text-decoration: none;
+    }
+    .project3 a {
+        text-decoration: none;
+    }
+    .project4 a {
+        text-decoration: none;
+    }
+    .project5 a {
+        text-decoration: none;
+    }
+    .project6 a {
+        text-decoration: none;
+    }
+    .project7 a {
         text-decoration: none;
     }
 }
