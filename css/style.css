@@ -392,13 +392,13 @@ input[type=email]:focus {
     border: 3px solid black;
 }
 
-textarea[name=name] {
+textarea[name=yourMessage] {
     background-color: var(--white-cream);
     border-radius: 7px;
     height: 70px;
 }
 
-textarea[name=name]:focus {
+textarea[name=yourMessage]:focus {
     outline: none;
     border: 3px solid black;
 }
@@ -748,12 +748,12 @@ textarea[name=name]:focus {
         outline: none;
         border: 3px solid black;
     }
-    textarea[name=name] {
+    textarea[name=yourMessage] {
         background-color: var(--white-cream);
         border-radius: 7px;
         height: 70px;
     }
-    textarea[name=name]:focus {
+    textarea[name=yourMessage]:focus {
         outline: none;
         border: 3px solid black;
     }
