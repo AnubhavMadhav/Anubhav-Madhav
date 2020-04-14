@@ -342,6 +342,8 @@ footer a:visited {
     position: relative;
     left: 5px;
     cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
     /* margin: 5px; */
 }
 
