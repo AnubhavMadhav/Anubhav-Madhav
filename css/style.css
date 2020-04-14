@@ -400,6 +400,16 @@ textarea[name=yourMessage] {
     height: 70px;
 }
 
+input[type=submit] {
+    background-color: var(--white-cream);
+    border-radius: 7px;
+}
+
+input[type=submit]:focus {
+    outline: none;
+    border: 3px solid black;
+}
+
 textarea[name=yourMessage]:focus {
     outline: none;
     border: 3px solid black;
@@ -710,6 +720,8 @@ textarea[name=yourMessage]:focus {
         position: absolute;
         left: 5px;
         cursor: pointer;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bold;
         /* margin: 5px; */
     }
     .button span {
@@ -756,6 +768,14 @@ textarea[name=yourMessage]:focus {
         height: 70px;
     }
     textarea[name=yourMessage]:focus {
+        outline: none;
+        border: 3px solid black;
+    }
+    input[type=submit] {
+        background-color: var(--white-cream);
+        border-radius: 7px;
+    }
+    input[type=submit]:focus {
         outline: none;
         border: 3px solid black;
     }
