@@ -1,3 +1,10 @@
+function submitform() {
+
+    document.getElementById('myform').submit();
+}
+
+
+
 const index2 = document.getElementById('');
 
 const { nav } = document;
