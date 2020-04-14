@@ -1,7 +1,7 @@
-function submitform() {
+// function submitform() {
 
-    document.getElementById('myform').submit();
-}
+//     document.getElementById('myform').submit();
+// }
 
 
 
