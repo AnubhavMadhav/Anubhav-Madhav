@@ -5,7 +5,7 @@
 
 window.addEventListener("load", function() {
     document.getElementById("mailtolink").addEventListener("click", function(e) {
-        e.preventDefault() // remove after testing
+        // e.preventDefault() // remove after testing
         let url = new URL(this.href);
         const name = document.querySelector("[name=yourName]").value.trim();
         const email = document.querySelector("[name=yourEmail]").value.trim();
