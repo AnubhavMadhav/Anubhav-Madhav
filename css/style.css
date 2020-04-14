@@ -462,6 +462,130 @@ textarea[name=yourMessage]:focus {
 }
 
 
+/* BLOG PAGE */
+
+.blog-page {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blog-heading {
+    position: absolute;
+    top: 50px;
+    left: 655px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.blogs {
+    position: relative;
+    top: 200px;
+    /* left: 680px; */
+    padding: 30px;
+}
+
+.blog1 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.blog2 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.blog3 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.blog1 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.blog2 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.blog3 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.blog1 h1:hover {
+    color: white;
+}
+
+.blog2 h1:hover {
+    color: white;
+}
+
+.blog3 h1:hover {
+    color: white;
+}
+
+.blog1 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.blog2 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.blog3 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.blog1 a {
+    text-decoration: none;
+}
+
+.blog2 a {
+    text-decoration: none;
+}
+
+.blog3 a {
+    text-decoration: none;
+}
+
+
 /* For Mobile */
 
 @media (max-width: 991px) {
@@ -821,6 +945,110 @@ textarea[name=yourMessage]:focus {
     }
     .fab:hover {
         color: white;
+    }
+    /* BLOG PAGE */
+    .blog-page {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .blog-heading {
+        position: absolute;
+        top: 30px;
+        left: 110px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+        color: white;
+    }
+    .blogs {
+        position: relative;
+        width: 100%;
+        top: 130px;
+        /* left: 680px; */
+    }
+    .blog1 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 180px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .blog2 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 180px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .blog3 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 180px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .blog1 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: var(--white-cream);
+    }
+    .blog2 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: var(--white-cream);
+    }
+    .blog3 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: var(--white-cream);
+    }
+    .blog1 h1:hover {
+        color: white;
+    }
+    .blog2 h1:hover {
+        color: white;
+    }
+    .blog3 h1:hover {
+        color: white;
+    }
+    .blog1 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .blog2 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .blog3 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .blog1 a {
+        text-decoration: none;
+    }
+    .blog2 a {
+        text-decoration: none;
+    }
+    .blog3 a {
+        text-decoration: none;
     }
 }
 
