@@ -94,7 +94,7 @@ header nav ul li a:hover {
     height: 500px;
     width: auto;
     position: relative;
-    left: -35%;
+    left: -27%;
     top: 120px;
 }
 
@@ -143,8 +143,9 @@ header nav ul li a:hover {
 .gallery-text {
     text-align: center;
     position: relative;
+    font-family: 'Indie Flower', cursive;
     top: 60px;
-    color: var(--white-cream);
+    color: white;
 }
 
 .intro {
@@ -753,6 +754,10 @@ textarea[name=yourMessage]:focus {
     font-size: 20px;
 }
 
+.pratyushsir {
+    color: white;
+}
+
 .project1 h1 {
     text-align: center;
     position: relative;
@@ -887,6 +892,7 @@ textarea[name=yourMessage]:focus {
 
 .project6 a {
     text-decoration: none;
+    color: var(--white-cream);
 }
 
 .project7 a {
@@ -920,6 +926,7 @@ textarea[name=yourMessage]:focus {
     top: 0px;
     /* left: 680px; */
     padding: 30px;
+    width: fit-content;
 }
 
 .honors-heading {
@@ -968,6 +975,7 @@ textarea[name=yourMessage]:focus {
     color: var(--white-cream);
     font-family: 'Comic Neue', cursive;
     margin-bottom: 60px;
+    width: 80%;
 }
 
 .organizations-details a {
@@ -1524,7 +1532,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 180px;
+        height: 250px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1536,7 +1544,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 180px;
+        height: 250px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1548,7 +1556,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 180px;
+        height: 250px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1560,7 +1568,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 180px;
+        height: 250px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1572,7 +1580,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 180px;
+        height: 250px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1584,7 +1592,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 180px;
+        height: 300px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1596,7 +1604,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 180px;
+        height: 250px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1605,43 +1613,43 @@ textarea[name=yourMessage]:focus {
         text-align: center;
         position: relative;
         top: 0px;
-        color: var(--white-cream);
+        color: white;
     }
     .project2 h1 {
         text-align: center;
         position: relative;
         top: 0px;
-        color: var(--white-cream);
+        color: white;
     }
     .project3 h1 {
         text-align: center;
         position: relative;
         top: 0px;
-        color: var(--white-cream);
+        color: white;
     }
     .project4 h1 {
         text-align: center;
         position: relative;
         top: 0px;
-        color: var(--white-cream);
+        color: white;
     }
     .project5 h1 {
         text-align: center;
         position: relative;
         top: 0px;
-        color: var(--white-cream);
+        color: white;
     }
     .project6 h1 {
         text-align: center;
         position: relative;
         top: 0px;
-        color: var(--white-cream);
+        color: white;
     }
     .project7 h1 {
         text-align: center;
         position: relative;
         top: 0px;
-        color: var(--white-cream);
+        color: white;
     }
     .project1 h1:hover {
         color: white;
