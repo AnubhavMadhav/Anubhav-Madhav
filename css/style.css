@@ -970,6 +970,14 @@ textarea[name=yourMessage]:focus {
         left: -100%;
         transition: 0.5s;
     }
+    header .logo {
+        color: var(--white-cream);
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px;
+        float: left;
+        font-weight: bold;
+    }
     header nav.active {
         left: 0;
         z-index: 100;
@@ -1074,7 +1082,7 @@ textarea[name=yourMessage]:focus {
         font-weight: 100;
         font-size: 0.8em;
         background: #262626;
-        left: 6px;
+        left: 0px;
     }
     footer h6 a {
         text-decoration: none;
@@ -1157,7 +1165,7 @@ textarea[name=yourMessage]:focus {
     .hobbies {
         color: white;
         position: absolute;
-        top: 1520px;
+        top: 1500px;
         left: 20px;
         font-family: 'Indie Flower', cursive;
         bottom: 30px;
@@ -1362,7 +1370,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 180px;
+        height: 240px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1374,7 +1382,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 180px;
+        height: 240px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1386,7 +1394,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 180px;
+        height: 240px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
