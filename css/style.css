@@ -612,6 +612,34 @@ textarea[name=yourMessage]:focus {
     text-decoration: none;
 }
 
+
+/* BLOGS */
+
+.blog1-page {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blog1-heading {
+    position: absolute;
+    top: 50px;
+    left: 655px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color: white;
+}
+
+.blog1-body {
+    margin: 0 auto;
+    color: var(--white-cream);
+    width: 90%;
+    position: relative;
+    top: 180px;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
 .projects-page {
     position: relative;
     width: 100%;
@@ -1370,7 +1398,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 240px;
+        height: 270px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1382,7 +1410,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 240px;
+        height: 270px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1394,7 +1422,7 @@ textarea[name=yourMessage]:focus {
         border-width: 5px;
         background-color: #333;
         border-radius: 22px;
-        height: 240px;
+        height: 270px;
         margin: 20px 5px;
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
@@ -1446,6 +1474,29 @@ textarea[name=yourMessage]:focus {
     }
     .blog3 a {
         text-decoration: none;
+    }
+    /* BLOGS */
+    .blog1-page {
+        position: relative;
+        width: 340px;
+        margin: 0 auto;
+    }
+    .blog1-heading {
+        position: absolute;
+        top: 40px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+        color: white;
+        left: 60px;
+    }
+    .blog1-body {
+        margin: 0 auto;
+        color: var(--white-cream);
+        width: 95%;
+        position: relative;
+        top: 180px;
+        font-size: 20px;
+        margin-bottom: 70px;
     }
     .projects-page {
         position: relative;
