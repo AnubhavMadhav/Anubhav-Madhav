@@ -281,6 +281,22 @@ footer a:visited {
     text-decoration: underline;
 }
 
+.skills {
+    color: white;
+    position: absolute;
+    top: 1300px;
+    left: 300px;
+    font-family: 'Indie Flower', cursive;
+    bottom: 60px;
+    padding-top: 40px;
+}
+
+.skills-details {
+    color: var(--white-cream);
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
 .hobbies {
     color: white;
     position: absolute;
@@ -1197,6 +1213,18 @@ textarea[name=yourMessage]:focus {
     }
     .education-details li a {
         color: white;
+    }
+    .skills {
+        color: white;
+        position: absolute;
+        top: 1770px;
+        left: 20px;
+        font-family: 'Indie Flower', cursive;
+    }
+    .skills-details {
+        padding-bottom: 30px;
+        position: relative;
+        right: 15px;
     }
     .hobbies {
         color: white;
