@@ -770,6 +770,45 @@ textarea[name=yourMessage]:focus {
     font-size: 20px;
 }
 
+.project8 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.project9 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.project10 {
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #333;
+    border-radius: 22px;
+    height: 200px;
+    margin: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
 .pratyushsir {
     color: white;
 }
@@ -823,6 +862,27 @@ textarea[name=yourMessage]:focus {
     color: var(--white-cream);
 }
 
+.project8 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.project9 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
+.project10 h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: var(--white-cream);
+}
+
 .project1 h1:hover {
     color: white;
 }
@@ -848,6 +908,18 @@ textarea[name=yourMessage]:focus {
 }
 
 .project7 h1:hover {
+    color: white;
+}
+
+.project8 h1:hover {
+    color: white;
+}
+
+.project9 h1:hover {
+    color: white;
+}
+
+.project10 h1:hover {
     color: white;
 }
 
@@ -886,6 +958,21 @@ textarea[name=yourMessage]:focus {
     color: var(--white-cream);
 }
 
+.project8 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.project9 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
+.project10 p {
+    position: relative;
+    color: var(--white-cream);
+}
+
 .project1 a {
     text-decoration: none;
 }
@@ -912,6 +999,18 @@ textarea[name=yourMessage]:focus {
 }
 
 .project7 a {
+    text-decoration: none;
+}
+
+.project8 a {
+    text-decoration: none;
+}
+
+.project9 a {
+    text-decoration: none;
+}
+
+.project10 a {
     text-decoration: none;
 }
 
@@ -1637,6 +1736,42 @@ textarea[name=yourMessage]:focus {
         font-family: 'Comic Neue', cursive;
         font-size: 20px;
     }
+    .project8 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 250px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .project9 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 250px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
+    .project10 {
+        text-align: center;
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+        background-color: #333;
+        border-radius: 22px;
+        height: 250px;
+        margin: 20px 5px;
+        font-family: 'Comic Neue', cursive;
+        font-size: 20px;
+    }
     .project1 h1 {
         text-align: center;
         position: relative;
@@ -1679,6 +1814,24 @@ textarea[name=yourMessage]:focus {
         top: 0px;
         color: white;
     }
+    .project8 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: white;
+    }
+    .project9 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: white;
+    }
+    .project10 h1 {
+        text-align: center;
+        position: relative;
+        top: 0px;
+        color: white;
+    }
     .project1 h1:hover {
         color: white;
     }
@@ -1698,6 +1851,15 @@ textarea[name=yourMessage]:focus {
         color: white;
     }
     .project7 h1:hover {
+        color: white;
+    }
+    .project8 h1:hover {
+        color: white;
+    }
+    .project9 h1:hover {
+        color: white;
+    }
+    .project10 h1:hover {
         color: white;
     }
     .project1 p {
@@ -1728,6 +1890,18 @@ textarea[name=yourMessage]:focus {
         position: relative;
         color: var(--white-cream);
     }
+    .project8 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .project9 p {
+        position: relative;
+        color: var(--white-cream);
+    }
+    .project10 p {
+        position: relative;
+        color: var(--white-cream);
+    }
     .project1 a {
         text-decoration: none;
     }
@@ -1747,6 +1921,15 @@ textarea[name=yourMessage]:focus {
         text-decoration: none;
     }
     .project7 a {
+        text-decoration: none;
+    }
+    .project8 a {
+        text-decoration: none;
+    }
+    .project9 a {
+        text-decoration: none;
+    }
+    .project10 a {
         text-decoration: none;
     }
     .accomplishments-page {
