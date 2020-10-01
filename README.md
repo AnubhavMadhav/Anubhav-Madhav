@@ -22,7 +22,7 @@ Syntax highlighted code block
 
 1. Numbered
 2. List.
-And many more
+And Many more exist in this fashion.
 
 
 **Bold** and _Italic_ and `Code` text
